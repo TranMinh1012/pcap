@@ -1,0 +1,43 @@
+Tuần 1:
+Thứ hai - 03/07/2023: Tìm hiểu các technique có datasource là network traffic trong group APT32 kịch bản 2 và viết rule
+Thứ ba  - 04/07/2023: Tìm hiểu các technique có datasource là network traffic trong group APT32 kịch bản 1 và viết rule
+Thứ tư  - 05/07/2023: Tìm hiểu các technique có datasource là network traffic trong group APT29 và viết rule
+Thứ năm - 06/07/2023: Tìm hiểu các technique có datasource là network traffic trong group APT41 và viết rule
+Thứ sau - 07/07/2023: Check lại kết quả và sửa đổi rule để bắt được tấn công chuẩn hơn. Viết báo cáo so sánh và tổng hợp kết quả.
+
+Tuần 2:
+Thứ hai - 10/07/2023: Thống kê lại các step chưa lên technique và tìm hiểu xem tại sao chưa lên
+Thứ ba  - 11/07/2023: Hiểu cách tấn công của các step
+Thứ tư  - 12/07/2023: Hiểu cách tấn công của các step và cách lên event
+Thứ năm - 13/07/2023: Kiểm tra Sans Sec 503
+Thứ sáu - 14/07/2023: Hiểu được cách lên event và tư duy viết rule
+
+Tuần 3:
+Thứ hai - 17/07/2023: Viết rule cho các step chưa lên alert của APT29 
+Thứ ba  - 18/07/2023: Viết rule cho các step chưa lên alert của APT29
+Thứ tư  - 19/07/2023: Viết rule cho các step chưa lên alert của APT29
+Thứ năm - 20/07/2023: Viết rule cho các step chưa lên alert của APT29
+Thứ sau - 21/07/2023: Sáng tổng hợp và viết docx các rule đã cấu được. Chiều đẩy pcap lên VECTRA để xem alert hiển thị như thế nào.
+
+Tuần 4:
+Thứ hai - 24/07/2023: Sáng fix lỗi k lên alert VECTRA. Chiều tổng hợp danh sách những rule anomalous connection chưa có trong NDR.
+Thứ ba  - 25/07/2023: Sáng tổng hợp danh sách những rule anomalous conn chưa có trong NDR tiếp. Chiều đào tạo xong lên tổng hợp nốt.
+Thứ tư  - 26/07/2023: Sáng đào tạo. Chiều map những rule chưa có trong NDR từ Darktrace sang (rule RDP reboot) và note lại lý thuyết
+về behavior và rules.
+Thứ năm - 27/07/2023: Sáng đi họp báo cáo kết quả test quý 2. Chiều tổng hợp lại các step có detection type là none trong các kịch bản
+tấn công APT, backup lại file pcap và tiếp tục map rule từ Darktrace sang NDR (Cisco, DGA, fake cer SSL)
+Thứ sau - 28/07/2023: Sáng đào tạo. Chiều map rule từ Darktrace sang NDR
+
+Tuần 5:
+Thứ hai - 31/07/2023: Tiếp tục map rule từ Darktrace sang NDR
+Thứ ba  - 01/08/2023: Sáng viết báo cáo tổng hợp các rule đã map. Chiều tiếp tục map rule
+Thứ tư  - 02/08/2023: Sáng tiếp tục map rule. Chiều tìm hiểu cách thay đổi địa chỉ IP trong file pcap
+Thứ năm - 03/08/2023: Sáng fix lỗi không nhận file pcap sau khi thay đổi địa chỉ IP. Chiều fix xong và tiếp tục map rule
+Thứ sau - 04/08/2023: Replay các APT41, APT32-S1 sau khi thay đổi địa chỉ IP lên VECTRA. Viết báo cáo tổng hợp các rule đã map được. Họp brainstorming để đưa ra ý tưởng cho dự án mới.
+
+Tuần 6:
+Thứ hai - 07/08/2023: Set up chỗ ngồi mới
+Thứ ba  - 08/08/2023: Vẽ lại sơ đồ tấn công APT29. Chuyển tiếp rule từ Darktrace sang NDR
+Thứ tư  - 09/08/2023: Set up môi trường để demo các cuộc tấn công
+Thứ năm - 10/08/2023: Demo tấn công RDP brute force và WinRM
+Thứ sau - 11/08/2023: Demo tấn công Laterak Movement WinRM
